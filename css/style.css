@@ -1,0 +1,62 @@
+html, body{
+    font-family: arial, sans-serif;
+    margin: 0; /*Removes white area around website border. Also try padding if that doesn't work*/
+}
+
+header{
+    background-color: #ffe6f2;
+    padding: 40px;
+    text-align: center;
+}
+
+h1{
+    font-size: 90px;
+    color: #1a000c;
+}
+
+header img{
+    border-radius: 20px;
+    border: 5px solid  #1a000c;
+}
+
+.content{
+    max-width: 900px;
+    margin: 0 auto;
+    padding:0 20px;
+}
+
+img.big-image{
+    max-width: 100%;
+}
+
+p.caption{
+    font-size: 16px;
+    color: lightgrey;
+    font-style: italic;
+}
+
+ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+a{
+    color: #ff007b;
+    text-decoration: none;
+}
+
+footer{
+    padding: 40px 20px;
+    background-color:  #ffff1a;
+    margin-top: 20px;
+}
+
+footer ul{
+    text-align: center;
+}
+
+footer ul li{
+    display: inline-block;
+    margin: 0 5px;
+}
